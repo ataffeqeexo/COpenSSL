@@ -6,7 +6,7 @@ let package = Package(
     name: "COpenSSL",
     pkgConfig: "openssl",
     providers: [
-        .brew("openssl"),
-        .bpt("libssl-dev")
+        .brew(["openssl"]),
+        .apt(["libssl-dev"])
     ]
 )
