@@ -1,5 +1,5 @@
-module Clibwebsockets [system] {
-  header "lws.h"
-  link "websockets"
+module COpenSSL [system] {
+  header "openssl.h"
+  link "ssl"
   export *
 }
