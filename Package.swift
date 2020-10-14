@@ -10,10 +10,6 @@ let package = Package(
     targets: [
         .systemLibrary(name: "COpenSSL",
             pkgConfig: "openssl",
-            providers: [
-                .brew(["openssl"]),
-                .apt(["libssl-dev"])
-            ]
         )
     ]
 )
