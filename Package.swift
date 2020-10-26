@@ -5,11 +5,11 @@ import PackageDescription
 let package = Package(
     name: "COpenSSL",
     products: [
-        .library(name: "COpenSSL", targets: ["COpenSSL"]),
+        .library(name: "COpenSSL", targets: ["COpenSSL"])
     ],
     targets: [
         .systemLibrary(name: "COpenSSL",
-            pkgConfig: "openssl",
+            pkgConfig: "openssl"
         )
     ]
 )
